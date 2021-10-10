@@ -11,6 +11,8 @@ The script covers the implementation of two CNNs. In the first one, we use MNIST
 
 For the first example, you do not need to import or get data from external sources. The <tt>mnist.load_data()</tt> command will automatically download it for you. A small part of the second example will require you to mount your GoogleDrive and have a folder called "Toy Example" with a couple of images from animals. This is for illustrative purposes. The main example should work without that bit.
 
+The code includes a few lines to download 600 images from this repository for further analysis. These images come from Getty and are copy-righted so PLEASE do not publish or distribute them under any circumstance. I am posting them to be used ONLY for pedagogical purposes and for the example covered in this class. i do not own the rights of any of the aforementioned pictures, and the credit/author/owner of each of them is specified in the CSV files included in the repository.
+
 ### BoVW
 This repository contains a folder with all the relevant code to create a Bag of Visual Words (the code is adapted from Adrian Rosebrock's BoVW article and code.) It also contains an <tt>R</tt> script with functions that will make possible to run a visual STM with the output from the Python code as input. The steps are the following:
 
